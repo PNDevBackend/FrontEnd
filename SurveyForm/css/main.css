@@ -1,0 +1,61 @@
+html{
+    background-color: #05c46b;
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+}
+.form-action{
+    
+        background-color: #fff;
+        max-width: 500px;
+        margin: 50px auto;
+        padding: 30px 20px;
+        box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+
+}
+h1{
+    width: 100%;
+    height: fit-content;    
+    text-align: center;
+}
+label{
+    color: black;
+    font:16px Verdana;
+    margin: 0px 0px 10px;
+    display: block;
+}
+input{
+    padding: 10px;
+    
+    width: 95%;
+}
+select{
+    width: 100%;
+    height: max-content;
+    padding:10px;
+
+}
+#select--option{
+    font: 14px Verdana;
+    color:black;
+
+}
+
+textarea{
+    width: 95%;
+    padding: 10px;
+}
+.form-action 
+input[type="checkbox"],
+.form-action 
+input[type="radio"]{
+    display: inline-block;
+    width: auto;
+}
+button{
+    background-color: #05c46b;
+    border: 1px solid #777;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+}
